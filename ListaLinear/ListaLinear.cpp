@@ -124,23 +124,23 @@ void excluirElemento()
 {
 	int valor, pos;
 	if (nElementos == 0) {
-		cout << "A lista esta vazia";
+		cout << "A lista esta vazia\n";
 	}
 	else{
-		cout << "Digite o numero que deseja deletar";
+		cout << "Digite o numero que deseja deletar:\n";
 		cin >> valor;
 			pos = posicaoElemento(valor);
 			if (nElementos == 1 && valor == lista[pos]) {
 				nElementos--;
-				cout << "Numero deletado.";
+				cout << "Numero deletado.\n";
 			}
 			else if(valor == lista[pos]){
 				lista[pos] == lista[nElementos];
 				nElementos--;
-				cout << "Numero deletado.";
+				cout << "Numero deletado.\n";
 			}
 			else {
-				cout << "O numero não existe na lista.";
+				cout << "O numero nao existe na lista.\n";
 			}
 	}
 }
