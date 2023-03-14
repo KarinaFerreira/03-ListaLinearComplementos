@@ -143,8 +143,6 @@ void excluirElemento()
 				cout << "O numero não existe na lista.";
 			}
 	}
-
-
 }
 
 void buscarElemento()
